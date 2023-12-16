@@ -85,7 +85,7 @@ const Footer = () => {
                                                     <li className="pt-2"><a href=""> <img className="w-100" src={img5} alt="footer-gallery-image"/></a></li>
                                                 </Col>
                                                 <Col xs={4}>
-                                                    <li className="pt-2 h-100"><a className="h-100" href=""><p className="background-blue f-showmore mb-0">Show More</p></a></li>
+                                                    <li className="pt-2 h-100"><a className="h-100" href=""><p className="background-blue h-100 f-showmore mb-0">Show More</p></a></li>
                                                 </Col>
                                             </Row>
                                         </ul>
