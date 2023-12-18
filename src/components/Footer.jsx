@@ -19,7 +19,7 @@ const Footer = () => {
                             <p className="fs-lg1 fw-bold lh-135 ff-poppins text-lightblue m-0 lh-135">Free</p>
                         </div>
                         <div>
-                            <p className="fs-sm1 fw-normal ff-poppins text-white mw-300 pt-sm-5 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c</p>
+                            <p className="fs-md fw-normal ff-poppins text-white mw-300 pt-sm-5 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c</p>
                         </div>
                         <div className=" d-flex gap-2">
                             <span>
@@ -47,7 +47,7 @@ const Footer = () => {
                         <Row>
                             <Col lg={3} xs={6}>
                                 <ul>
-                                    <li><a href="" className="fs-sm1 fw-bold ff-poppins text-white ">SERVICES</a></li>
+                                    <li><a href="" className="fs-md fw-bold ff-poppins text-white ">SERVICES</a></li>
                                     <li> <a href="" className="fs-sm fw-normal ff-poppins text-white ">About</a></li>
                                     <li><a href="" className="fs-sm fw-normal ff-poppins text-white ">NEWS</a></li>
                                     <li><a href="" className="fs-sm fw-normal ff-poppins text-white ">ullamcorper</a></li>
@@ -56,7 +56,7 @@ const Footer = () => {
                             </Col>
                             <Col lg={3} xs={6}>
                                 <ul>
-                                    <li><a href="" className="fs-sm1 fw-bold ff-poppins text-white">EVENTS</a></li>
+                                    <li><a href="" className="fs-md fw-bold ff-poppins text-white">EVENTS</a></li>
                                     <li><a href="" className="fs-sm fw-normal ff-poppins text-white">ullamcorper</a></li>
                                     <li><a href="" className="fs-sm fw-normal ff-poppins text-white">ullamcorper</a></li>
                                     <li><a href="" className="fs-sm fw-normal ff-poppins text-white">ullamcorper</a></li>
@@ -65,7 +65,7 @@ const Footer = () => {
                             </Col>
                             <Col lg={6} xs={12} sm={6}>
                                 <ul>
-                                    <li><a href="" className="fs-sm1 fw-bold ff-poppins text-white ">GALLERY</a></li>
+                                    <li><a href="" className="fs-md fw-bold ff-poppins text-white ">GALLERY</a></li>
                                     <li>
                                         <ul className=" pt-2">
                                             <Row>
@@ -95,7 +95,7 @@ const Footer = () => {
                         </Row>
                     </Col>
                 </Row>
-                <p className=" text-center fs-sm1 fw-normal ff-poppins text-white m-0 pb-4"> © Credits of companyName belong to companyName.</p>
+                <p className=" text-center fs-md fw-normal ff-poppins text-white m-0 pb-4"> © Credits of companyName belong to companyName.</p>
             </Container>
         </footer>
     );
