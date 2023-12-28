@@ -91,6 +91,19 @@
 .w-logo{
   width: 50px;
 }
+.pl-79{
+  padding-left: 79px;
+}
+.pl-120{
+  padding-left: 120px;
+}
+
+
+.circle-position{
+  position: absolute;
+  right: -76px;
+    top: 16px;
+}
 
 /* BUTTONS */
 .common-btn {
@@ -276,5 +289,36 @@ ul,li{
 
   .background-blue {
       background: rgba(45, 60, 174, 0.53) !important;
+  }
+}
+
+
+.flex-col{
+  flex-direction: column;
+}
+.pl-0{
+  padding-left: 0;
+}
+.d_none{
+  display: none;
+}
+
+@media (min-width:1200px) {
+  .circle-position{
+    position: absolute;
+    right: -76px !important;
+      top: 16px !important;
+  }
+  .xxl-row{
+    flex-direction: row ;
+  }
+  .xxl-block{
+    display: block ;
+  }
+  .xxl-pl-79{
+    padding-left: 79px !important;
+  }
+  .xxl-pl-120{
+    padding-left: 120px !important;
   }
 }
